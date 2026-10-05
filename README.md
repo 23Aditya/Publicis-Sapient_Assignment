@@ -15,7 +15,7 @@ The clinic needs an **autonomous, AI-powered clinical decision-support agent** c
 
 ## 2. Solution Architecture
 
-We implemented a **Tool-Calling Agent** utilizing the **ReAct** (Reason + Act) framework, powered by the **Groq API** (using the `llama-3.1-8b-instant` model for high-speed inference).
+We implemented a **Tool-Calling Agent** utilizing the **ReAct** (Reason + Act) framework, powered by the **Groq API** (using the `openai/gpt-oss-120b` model for high-speed inference).
 
 ### The Agent's Toolkit
 The LLM does not hallucinate medical diagnoses. Instead, it acts as an intelligent orchestrator provided with **4 deterministic Python tools** it can call to interact safely with the clinic's data:
