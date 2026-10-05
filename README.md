@@ -12,7 +12,7 @@ The clinic needs an **autonomous, AI-powered clinical decision-support agent** c
 3. Automatically generating prioritized, structured follow-up care action plans so the medical staff knows exactly *who to contact first* and *what action to take*.
 
 ---
-h
+
 ## 2. Solution Architecture
 
 We implemented a **Tool-Calling Agent** utilizing the **ReAct** (Reason + Act) framework, powered by the **Groq API** (using the `openai/gpt-oss-120b` model for high-speed inference).
